@@ -1,0 +1,15 @@
+{
+  "name": "ez-config",
+  "version": "1.0.0",
+  "description": "Easy way to handle your configuration from the whole project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "config",
+    "configuration"
+  ],
+  "author": "JLN",
+  "license": "ISC"
+}
