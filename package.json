@@ -1,15 +1,30 @@
 {
-  "name": "ez-config",
-  "version": "1.0.0",
+  "name": "config-simpler",
+  "version": "1.0.2",
   "description": "Easy way to handle your configuration from the whole project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "config",
-    "configuration"
+    "configuration",
+    "node-config",
+    "best config",
+    "conf",
+    "env"
   ],
-  "author": "JLN",
-  "license": "ISC"
+  "author": "jlno5",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlno5/ez-config-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlno5/ez-config-js/issues"
+  },
+  "homepage": "https://github.com/jlno5/ez-config-js#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
 }

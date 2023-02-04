@@ -16,11 +16,11 @@ Like your project is stored in `/home/user/project` then run `node index.js` in 
 ## Quick start
 ### Installation 
 ```shell
-$ npm install ez-config
-$ mkdir config
-$ vi config/dev.json 
+$ npm install config-simpler
+$ mkdir configs
+$ vi configs/dev.json 
 OR
-$ vi config/prod.json
+$ vi configs/prod.json
 ```
 ### Run correctly
 ```shell
@@ -28,9 +28,9 @@ $ cd /home/user/project
 $ NODE_ENV=development node index.js
 ```
 
-### use ez-config correctly
+### use config-simpler correctly
 ```js
-const config = require("ez-config");
+const config = require("config-simpler");
 // ...
 const dbAdress = config.get('MariaDB.adress');
 db.connect(dbAdress, ...);

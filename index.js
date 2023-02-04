@@ -5,6 +5,7 @@ const configFolder = `${dir}/configs`;
 const env = process.env.NODE_ENV || 'development';
 const file = env == 'production' ? configFolder + '/prod.json' : configFolder + '/dev.json';
 
+
 if (!fs.existsSync(configFolder)) fs.mkdirSync(configFolder);
 if (!fs.existsSync(file)) fs.writeFileSync(file, "{\n}");
 
